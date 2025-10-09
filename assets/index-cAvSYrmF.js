@@ -1,0 +1,1 @@
+const l={id:"sh.frame",name:"Frame Wallet",homepage:"https://frame.sh/",image_id:"frame.png",app:{browser:null,ios:null,android:null,mac:null,windows:null,linux:null,chrome:null,firefox:null,safari:null,edge:null,opera:null},rdns:"sh.frame",mobile:{native:null,universal:null},desktop:{native:null,universal:null}};export{l as wallet};

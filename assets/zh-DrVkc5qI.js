@@ -1,0 +1,1 @@
+const n=e=>({connectionScreen:{failed:"连接失败",inProgress:"等待用户确认",instruction:`请在 ${e} 中接受连接请求`,retry:"重试"},download:{android:"从 Google Play 下载",chrome:"下载 Chrome 扩展",iOS:"从 App Store 下载"},getStartedLink:`没有 ${e}？`,getStartedScreen:{instruction:`扫描二维码下载 ${e} 应用`},scanScreen:{instruction:`用 ${e} 扫描二维码连接`}});export{n as default};
