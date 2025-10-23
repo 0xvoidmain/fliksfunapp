@@ -1,0 +1,1 @@
+import{z as r,A as t}from"./index-DuDpilvb.js";import{getCurrencyMetadata as n}from"./getCurrencyMetadata-BdalWO2q.js";async function s(a){const[e,c]=await Promise.all([r(a),n(a)]);return{...c,chainId:a.contract.chain.id,displayValue:t(e,c.decimals),tokenAddress:a.contract.address,value:e}}export{s as getBalance};
